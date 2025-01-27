@@ -59,7 +59,6 @@ class MainActivity : AppCompatActivity() {
         binding.btnPlus.setOnClickListener {
 
             noAccessFirst("+")
-            showNumList("+")
 
         }
 
@@ -131,10 +130,5 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun showNumList(s : String){
-
-
-
-    }
 
 }
